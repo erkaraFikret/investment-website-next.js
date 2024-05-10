@@ -26,7 +26,7 @@ const Advantage = () => {
                 </div>
                 {/* img content */}
                 <div>
-                    <Image src={AdvantageImg} alt="advantage img"/>
+                    <Image data-aos="zoom-out" data-aos-anchor-placement="top-center" src={AdvantageImg} alt="advantage img"/>
                 </div>
             </div>
         </div>

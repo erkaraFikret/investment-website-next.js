@@ -1,5 +1,5 @@
 import React from 'react'
-import SectionHeading from '../Helper/SectionHeading'
+import SectionHeading from '../../Helper/SectionHeading'
 import { BsCheck2Square } from 'react-icons/bs'
 import { BiMoney } from 'react-icons/bi'
 import { GiSecurityGate } from 'react-icons/gi'
@@ -49,7 +49,7 @@ const About = () => {
                 </div>
                 {/* image content */}
                 <div>
-                    <Image src={AboutImg} alt='about-img'/>
+                    <Image  data-aos="zoom-in" data-aso-ancher-placement="top-center" src={AboutImg} alt='about-img'/>
                 </div>
             </div>
         </div>
