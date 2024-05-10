@@ -5,6 +5,7 @@ import Feature from './Feature/Feature'
 import Price from './Price/Price'
 import Advantage from './Advantage/Advantage'
 import Investor from './Investor/Investor'
+import Review from './Review/Review'
 
 const Home = () => {
     return (
@@ -15,6 +16,7 @@ const Home = () => {
             <Price/>
             <Advantage/>
             <Investor/>
+            <Review/>
         </div>
     )
 }
