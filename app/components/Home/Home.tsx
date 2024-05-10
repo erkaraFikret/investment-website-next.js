@@ -6,6 +6,7 @@ import Price from './Price/Price'
 import Advantage from './Advantage/Advantage'
 import Investor from './Investor/Investor'
 import Review from './Review/Review'
+import Blog from './Blog/Blog'
 
 const Home = () => {
     return (
@@ -17,6 +18,7 @@ const Home = () => {
             <Advantage/>
             <Investor/>
             <Review/>
+            <Blog/>
         </div>
     )
 }
